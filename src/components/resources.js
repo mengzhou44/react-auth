@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './header';
+import UserList from './user-list';
 
 export default (props) => {
 
@@ -8,10 +9,7 @@ export default (props) => {
         <div>
             <Header />
 
-            <ul>
-                <li>Tomatoes </li>
-                <li>White Venegar </li>
-            </ul>
+            <UserList />
 
         </div>
     );
